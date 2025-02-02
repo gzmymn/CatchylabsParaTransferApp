@@ -782,7 +782,6 @@ public class BaseSteps extends BaseTest {
         }
     }
 
-
     @Step({"<text> textini <key> elemente tek tek yaz",
             "Write <text> to element <key> OnebyOne"})
     public void sendKeyOneByOne(String text, String key) throws InterruptedException {

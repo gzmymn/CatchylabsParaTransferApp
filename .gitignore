@@ -84,7 +84,9 @@ local.properties
 .idea/**/dictionaries
 .idea/**/shelf
 .DS_Store
-reports/
+reports/html-report
+reports/xml-report
+
 # Generated files
 .idea/**/contentModel.xml
 
