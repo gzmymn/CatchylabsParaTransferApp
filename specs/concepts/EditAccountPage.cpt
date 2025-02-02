@@ -1,0 +1,26 @@
+
+# Edit Account butonu tiklanir
+* "editAccountButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* Element var mi kontrol et "editAccountNameInputField"
+
+# Account name alanina <value> degeri girilir
+* "editAccountNameInputField" elementine <value> degeri yazilir
+* "1" saniye bekle
+
+# Account Name alani temizlenir
+* Elementine tikla "editAccountNameInputField"
+* "editAccountNameInputField" elementinin text alanini temizle
+* "1" saniye bekle
+
+# Update Account butonunun disabled oldugu kontrol edilir
+* "updateAccountButton" elementinin "aria-disabled" niteligine sahip oldugunu dogrula
+* "1" saniye bekle
+
+# Update Account butonu tiklanir
+* "updateAccountButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* "1" saniye bekle
+
+# Hesap adinin yalnizca sayi icermedigi dogrulanir
+* "accountNameText" elementinin yalnizca sayi icermedigini dogrula
+* "5" saniye bekle
+

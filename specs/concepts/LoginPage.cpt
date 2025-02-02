@@ -1,0 +1,24 @@
+
+# Kullanici giris sayfasina gidilir
+* "Giris sayfasina gidiliyor..." mesaji bastirilir
+* "https://catchylabs-webclient.testinium.com/signIn" adresine git
+* "1" saniye bekle
+* Element var mi kontrol et "usernameInputField"
+* "Giris sayfasi acildi." mesaji bastirilir
+* "1" saniye bekle
+
+# Kullanici bilgileri <username> - <password> olarak girilir
+* "usernameInputField" elementine <username> degeri yazilir
+* "passwordInputField" elementine <password> degeri yazilir
+
+# Kullanici bilgileri girilir
+* Kullanici bilgileri "gizemkubra.yaman" - "Testinium-241022" olarak girilir
+
+# Login butonu tiklanir
+* "loginButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* Element var mi kontrol et "openMoneyTransferButton"
+
+# Open Money Transfer butonu tiklanir
+* "openMoneyTransferButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* Element var mi kontrol et "editAccountButton"
+

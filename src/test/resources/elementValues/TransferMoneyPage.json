@@ -1,0 +1,27 @@
+[
+  {
+    "key": "transferMoneyButton",
+    "value": "//div[text()='Transfer money']",
+    "type": "xpath"
+  },
+  {
+    "key": "senderAccountDropdown",
+    "value": "(//select)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "receiverAccountDropdown",
+    "value": "(//select)[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "amountSentInputField",
+    "value": "//div[text()='Amount']/following-sibling::div/input",
+    "type": "xpath"
+  },
+  {
+    "key": "sendButton",
+    "value": "//div[text()='Send']",
+    "type": "xpath"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "key": "accountNameText",
+    "value": "//div[text()='Account name']/following-sibling::div",
+    "type": "xpath"
+  },
+  {
+    "key": "accountTypeText",
+    "value": "//div[text()='Account type']/following-sibling::div",
+    "type": "xpath"
+  },
+  {
+    "key": "accountCreationTimeText",
+    "value": "//div[text()='Creation time']/following-sibling::div",
+    "type": "xpath"
+  },
+  {
+    "key": "accountBalanceText",
+    "value": "//div[text()='Amount']/following-sibling::div",
+    "type": "xpath"
+  },
+  {
+    "key": "TransactionsFieldTitle",
+    "value": "//div[text()='Transactions']",
+    "type": "xpath"
+  }
+]

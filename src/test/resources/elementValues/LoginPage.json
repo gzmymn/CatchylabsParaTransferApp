@@ -1,0 +1,22 @@
+[
+  {
+    "key": "usernameInputField",
+    "value": "input[placeholder='Username']",
+    "type": "css"
+  },
+  {
+    "key": "passwordInputField",
+    "value": "input[placeholder='Password']",
+    "type": "css"
+  },
+  {
+    "key": "loginButton",
+    "value": "//div[text()='Login']",
+    "type": "xpath"
+  },
+  {
+    "key": "openMoneyTransferButton",
+    "value": "//div[text()='Open Money Transfer']",
+    "type": "xpath"
+  }
+]

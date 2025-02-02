@@ -1,0 +1,17 @@
+[
+  {
+    "key": "editAccountButton",
+    "value": "//div[text()='Edit account']",
+    "type": "xpath"
+  },
+  {
+    "key": "editAccountNameInputField",
+    "value": "input[placeholder]",
+    "type": "css"
+  },
+  {
+    "key": "updateAccountButton",
+    "value": "//div[text()='UPDATE']",
+    "type": "xpath"
+  }
+]

@@ -1,0 +1,72 @@
+
+# Para ekle butonu tiklanir
+* "addMoneyButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* Element var mi kontrol et "cardNumberInputField"
+
+# Ornek kart bilgileri girilir
+* "cardNumberInputField" elementine "1234123412341234" degeri yazilir
+* "Gizem Kubra Yaman" textini "cardHolderInputField2" elemente tek tek yaz
+* "cardExpiryInputField" elementine "10/26" degeri yazilir
+* "cardCVVInputField" elementine "110" degeri yazilir
+
+# Son Kulanma Tarihi hatali ornek kart bilgileri girilir
+* "cardNumberInputField" elementine "1234123412341234" degeri yazilir
+* "Gizem Kubra Yaman" textini "cardHolderInputField2" elemente tek tek yaz
+* "cardExpiryInputField" elementine "10/27" degeri yazilir
+* "cardCVVInputField" elementine "110" degeri yazilir
+
+# CVV hatali ornek kart bilgileri girilir
+* "cardNumberInputField" elementine "1234123412341234" degeri yazilir
+* "Gizem Kubra Yaman" textini "cardHolderInputField2" elemente tek tek yaz
+* "cardExpiryInputField" elementine "10/26" degeri yazilir
+* "cardCVVInputField" elementine "777" degeri yazilir
+
+# Kart Numarasi alanina 8 karakterden az deger girilir
+* "cardNumberInputField" elementine "1234123" degeri yazilir
+* "1" saniye bekle
+* Elementine tikla "cardHolderInputField2"
+* "1" saniye bekle
+
+# Kart Numarasi alanina 14 karakterden fazla deger girilir
+* "cardNumberInputField" elementine "123412341234123412" degeri yazilir
+* "1" saniye bekle
+* Elementine tikla "cardHolderInputField2"
+* "1" saniye bekle
+
+# Kart Sahibi alanina 5 karakterden az deger girilir
+* "cardHolderInputField2" elementine "gzm" degeri yazilir
+* "1" saniye bekle
+* Elementine tikla "cardExpiryInputField"
+* "1" saniye bekle
+
+# Kart Sahibi alanina cok uzun karakterde deger girilir
+* "cardHolderInputField2" elementine "ggggggggggggggggggggggggggggggggggggggggggggggg" degeri yazilir
+* "1" saniye bekle
+* Elementine tikla "cardExpiryInputField"
+* "1" saniye bekle
+
+# Kart Numarasi alani icin <alertMessage> hata kontrolu yapilir
+* "cardNumberAlertMessage" elementi <alertMessage> degerini iceriyor mu kontrol et
+* "1" saniye bekle
+
+# Kart Sahibi alani icin <alertMessage> hata kontrolu yapilir
+* "cardHolderAlertMessage" elementi <alertMessage> degerini iceriyor mu kontrol et
+* "1" saniye bekle
+
+# Son Kullanma Tarihi alani icin <alertMessage> hata kontrolu yapilir
+* "expiryDateAlertMessage" elementi <alertMessage> degerini iceriyor mu kontrol et
+* "1" saniye bekle
+
+# CVV alani icin <alertMessage> hata kontrolu yapilir
+* "cardCVVAlertMessage" elementi <alertMessage> degerini iceriyor mu kontrol et
+* "1" saniye bekle
+
+# Miktar alani icin <alertMessage> hata kontrolu yapilir
+* "cardAmountAlertMessage" elementi <alertMessage> degerini iceriyor mu kontrol et
+* "1" saniye bekle
+
+# <amount> tutarinda deger amount alanina girilir
+* "cardAmountInputField" elementine <amount> degeri yazilir
+
+# Ekle butonu tiklanir
+* "cardAddButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir

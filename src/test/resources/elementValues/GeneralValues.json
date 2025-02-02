@@ -1,0 +1,7 @@
+[
+    {
+        "key": "closeButton",
+        "value": "div[style*='anticon']",
+        "type": "css"
+    }
+]
